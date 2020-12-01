@@ -1,0 +1,12 @@
+<sui:scenario xray:testSummary="google" id="sc:Pn3YRMSK9" xray:testDescription="This Scenario is the API scripted example Scenario. This searches Testifi at google">
+  <test-step xray:stepExpectedResult="The Landingpage is shown" xray:stepDescription="Navigate to google.com" xray:stepData="">
+    <sui:navigate method="to" url="https://google.com"/>
+    <echo message="Hello Testifi"/>
+  </test-step>
+  <test-step xray:stepExpectedResult="RestultList for Testifi" xray:stepDescription="Enter Testifi in search field and press enter" xray:stepData="Testifi">
+    <page:googleLanding/>
+    <sui:set-value pageId="searchText" value="Testifi"/>
+    <sui:keys pageId="searchText" value=""/>
+  </test-step>
+  <test-step xray:stepExpectedResult="is uploaded with XraySuiteUpload" xray:stepDescription="third test-step" xray:stepData=""/>
+</sui:scenario>

@@ -1,0 +1,3 @@
+<suite xray:testplanKey="PITTEST-396" jira:user="kurt.ostwald" jira:password="$Eierkuchen" jira:url="https://jirafr.testifi.io" description="Our debug Playground" id="debug" jira:projectKey="PITTEST">
+  <sc:Pn3YRMSK9/>
+</suite>
